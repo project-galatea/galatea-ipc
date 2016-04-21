@@ -5,3 +5,7 @@ message Message {
       required int64 userId = 2;
       optional int64 chatId = 3;
 }
+
+message Hello {
+    required bool response = 1;
+}
