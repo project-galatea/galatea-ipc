@@ -4,7 +4,8 @@ message Message {
       required string text = 1;
       required int64 userId = 2;
       required int64 time = 3;
-      optional int64 chatId = 4;
+      required bool respond = 4;
+      optional int64 chatId = 5;
 }
 
 message Hello {
